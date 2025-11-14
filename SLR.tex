@@ -9,43 +9,55 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{geometry}
+\usepackage{microtype}
+
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\newunicodechar{≈}{\ensuremath{\approx}}
+
 \geometry{margin=1in}
 
-\title{A Systematic Literature Review of Semantic Web Technologies}
-\author{Your Name \\ Your Institution}
+\title{Systematic Literature Review on the Use of AI Chatbots in Education and Learning Support}
+\author{Chriscell Herojire Tumiwang - 220211060210 \\ 
+	Jevi Ferdinan Monintja - 220211060226 \\ 
+	Your Institution}
 \date{}
 
 \begin{document}
+	\sloppy
 	
 	\maketitle
 	
 	\begin{abstract}
-		This paper presents a Systematic Literature Review (SLR) on Semantic Web technologies. 
-		The review includes research questions, search strategies, inclusion and exclusion criteria, 
-		quality assessment, and synthesis of selected studies. 
-		The findings highlight trends, challenges, and future opportunities in Semantic Web research.
+		Chatbot berbasis kecerdasan buatan (AI) kian diintegrasikan dalam ekosistem pendidikan sebagai tutor pribadi, asisten pembelajaran, dan mitra belajar. Namun, bukti tentang dampaknya terhadap hasil belajar dan keterlibatan, serta risiko etis dan integritas akademik, masih tersebar \cite{Labadze2023,Kuhail2023}.
+		
+		Metode: Kami melakukan tinjauan sistematis atas literatur 2018--2025, meliputi SLR generik tentang chatbot pendidikan, SLR khusus ChatGPT (PRISMA), dan meta-analisis efek chatbot pada pembelajaran. Sintesis naratif dilakukan untuk memetakan peran, konteks desain interaksi, outcome, dan tantangan, serta agenda riset ke depan.\cite{  }
+		
+		Hasil: Bukti konsisten menunjukkan chatbot menyediakan umpan balik instan, personalisasi konten dan kecepatan belajar, serta dukungan tugas dan konsep. Meta-analisis atas 32 studi (n$\approx$2201) menemukan efek sedang hingga tinggi pada hasil belajar agregat, dengan peningkatan bermakna pada prestasi, retensi, dan penalaran eksplisit. Namun, hasil negatif atau heterogen muncul pada kemampuan berpikir kritis, motivasi, dan keterlibatan.
+		
+		Kesimpulan: Chatbot AI berpotensi memperkuat proses pembelajaran, tetapi manfaatnya bergantung pada desain instruksional, validasi keluaran, serta tata kelola etika. Penelitian mendatang perlu mengeksplorasi efek jangka panjang, moderator (usia, domain, durasi), serta desain scaffolding, kolaborasi manusia--AI, dan kebijakan integritas akademik.
 	\end{abstract}
 	
-	\textbf{Keywords:} Semantic Web, Ontology, Linked Data, Knowledge Graph, SLR.
+	\textbf{Keywords:} AI Chatbots, Education, Learning Support, SLR, PRISMA.
 	
 	\section{Introduction}
-	Explain background, motivation, research gaps, and importance of Semantic Web research.
+	Explain background, motivation, research gaps, and importance of AI chatbot research.
 	
 	\subsection{Research Questions}
 	\begin{itemize}
-		\item \textbf{RQ1}: What Semantic Web technologies are most commonly used?
-		\item \textbf{RQ2}: In which domains are Semantic Web technologies applied?
-		\item \textbf{RQ3}: What challenges and limitations are reported?
+		\item \textbf{RQ1}: What AI chatbot technologies are most commonly used in education?
+		\item \textbf{RQ2}: In which contexts or domains are AI chatbots applied?
+		\item \textbf{RQ3}: What benefits and limitations are reported?
 		\item \textbf{RQ4}: What are the research trends over time?
 	\end{itemize}
 	
 	\section{Background}
 	Provide theoretical overview:
 	\begin{itemize}
-		\item RDF, OWL, SPARQL
-		\item Ontology engineering
-		\item Knowledge Graphs
-		\item Reasoning techniques
+		\item Chatbots and Dialogue Systems
+		\item NLP and LLM-based Chatbots
+		\item Learning Support Systems
+		\item Intelligent Tutoring Systems
 	\end{itemize}
 	
 	\section{Methodology}
@@ -62,104 +74,58 @@
 	
 	Example search string:
 	\begin{verbatim}
-		("semantic web" OR "ontology" OR "linked data" OR "knowledge graph") 
-		AND ("application" OR "implementation" OR "case study")
+		("chatbot" OR "AI chatbot" OR "conversational agent" OR "LLM") 
+		AND ("education" OR "learning" OR "tutoring")
 	\end{verbatim}
 	
-	\subsection{Inclusion Criteria (IC)}
+	\subsection{Inclusion Criteria}
 	\begin{itemize}
-		\item IC1: Focus on Semantic Web technologies
-		\item IC2: Published between 2014–2024
-		\item IC3: Peer-reviewed articles
+		\item Focus on AI chatbots in education
+		\item Published between 2018--2025
+		\item Peer-reviewed articles
 	\end{itemize}
 	
-	\subsection{Exclusion Criteria (EC)}
+	\subsection{Exclusion Criteria}
 	\begin{itemize}
-		\item EC1: Duplicate studies
-		\item EC2: Non-English publications
-		\item EC3: No access to full text
-	\end{itemize}
-	
-	\subsection{Quality Assessment}
-	Each study is evaluated using the following criteria (score 0–1):
-	\begin{itemize}
-		\item Q1: Clear research goals
-		\item Q2: Sound methodology
-		\item Q3: Sufficient evaluation
+		\item Duplicate studies
+		\item Non-English publications
+		\item No access to full text
 	\end{itemize}
 	
 	\subsection{Study Selection (PRISMA)}
-	Insert your PRISMA diagram:
 	\begin{verbatim}
 		Identified -> Screened -> Eligible -> Included
 	\end{verbatim}
 	
-	Add your figure:
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.7\textwidth]{prisma.png}
+		\fbox{\parbox{0.7\textwidth}{PRISMA Flow Diagram Placeholder}}
 		\caption{PRISMA Flow Diagram}
 	\end{figure}
 	
 	\section{Results}
-	
 	\subsection{Overview of Selected Studies}
-	Summary of articles:
 	\begin{itemize}
-		\item Total articles identified: XX
-		\item Final selected studies: XX
-	\end{itemize}
-	
-	\subsection{Trends by Year}
-	Insert chart or narrative here.
-	
-	\subsection{Technologies Used (RQ1)}
-	Discuss usage of RDF, OWL, SPARQL, Knowledge Graphs, etc.
-	
-	\subsection{Applications by Domain (RQ2)}
-	Health, IoT, smart cities, education, etc.
-	
-	\subsection{Challenges (RQ3)}
-	Common challenges:
-	\begin{itemize}
-		\item Scalability
-		\item Data integration
-		\item Ontology alignment
+		\item Total identified: XX
+		\item Final included: XX
 	\end{itemize}
 	
 	\section{Data Extraction Table}
 	
 	\begin{longtable}{|p{2.5cm}|p{1.5cm}|p{2cm}|p{3cm}|p{4cm}|}
 		\hline
-		\textbf{Author} & \textbf{Year} & \textbf{Domain} & \textbf{Technology Used} & \textbf{Key Findings} \\
-		\hline
-		Author A & 2020 & Healthcare & RDF, OWL & Ontology improved patient data integration. \\
-		\hline
-		Author B & 2022 & IoT & Knowledge Graphs & Reasoning improved semantic interoperability. \\
-		\hline
+		\textbf{Author} & \textbf{Year} & \textbf{Domain} & \textbf{Technology Used} & \textbf{Key Findings} \\ \hline
+		Author A & 2020 & Education & LLM Chatbot & Improved feedback. \\ \hline
+		Author B & 2022 & Higher Ed & NLP Chatbot & Increased engagement. \\ \hline
 	\end{longtable}
 	
 	\section{Discussion}
-	Provide deep analysis and compare studies.
-	
-	\section{Research Gaps}
-	Highlight gaps such as:
-	\begin{itemize}
-		\item Lack of large-scale evaluations
-		\item Missing benchmark datasets
-		\item Limited integration with machine learning
-	\end{itemize}
-	
-	\section{Future Work}
-	Recommendations for further research.
+	Provide deeper analysis.
 	
 	\section{Conclusion}
-	Summarize findings, contributions, and significance.
+	Summarize findings.
 	
-	\section{References}
-	Use BibTeX or manual references here.
-	
-\bibliographystyle{IEEEtran}
-\bibliography{references}
+	\bibliographystyle{IEEEtran}
+	\bibliography{references}
 	
 \end{document}

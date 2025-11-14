@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 NOV 2025 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.11)  14 NOV 2025 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,50 +322,87 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks25
 
 (D:\miktek\tex/latex/geometry\geometry.cfg))
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-8.
+(D:\miktek\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks26
+\MT@tempbox=\box62
+\MT@count=\count316
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks27
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen186
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count317
+
+(D:\miktek\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip61
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(D:\miktek\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(D:\miktek\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+)
+(D:\miktek\tex/latex/newunicodechar\newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+6.
 
 (D:\miktek\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (D:\miktek\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
+\l__color_backend_stack_int=\count318
 ) (SLR.aux)
 \openout1 = `SLR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (D:\miktek\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen186
-\scratchbox=\box62
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen187
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count319
+\scratchdimen=\dimen187
+\scratchbox=\box63
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen188
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks31
 ) (D:\miktek\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -374,7 +411,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\miktek\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 26.
  (SLR.out) (SLR.out)
 \@outlinefile=\write3
 \openout3 = `SLR.out'.
@@ -414,8 +451,33 @@ Package hyperref Info: Link coloring OFF on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-6.
+LaTeX Info: Redefining \microtypecontext on input line 26.
+Package microtype Info: Applying patch `item' on input line 26.
+Package microtype Info: Applying patch `toc' on input line 26.
+Package microtype Info: Applying patch `eqnum' on input line 26.
+Package microtype Info: Applying patch `footnote' on input line 26.
+Package microtype Info: Applying patch `verbatim' on input line 26.
+LaTeX Info: Redefining \microtypesetup on input line 26.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(D:\miktek\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(D:\miktek\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+8.
+
 (D:\miktek\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -424,77 +486,45 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 {C:/Users/rumim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/miktek/fon
 ts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
+6.
  (D:\miktek\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (51.03189pt too wide) in paragraph at lines 67--67
-[]  \OT1/pcr/m/n/12 ("semantic web" OR "ontology" OR "linked data" OR "knowledg
-e graph")[] 
+Overfull \hbox (7.83191pt too wide) in paragraph at lines 79--79
+[]  \OT1/pcr/m/n/12 ("chatbot" OR "AI chatbot" OR "conversational agent" OR "LL
+M")[] 
  []
-
-
-LaTeX Warning: File `prisma.png' not found on input line 100.
-
-
-! Package pdftex.def Error: File `prisma.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ...graphics[width=0.7\textwidth]{prisma.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[2]
+[2] (SLR.bbl)
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]|\OT1/ptm/b/n/12 Technology
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|\OT1/ptm/m/n/12 Knowledge
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-[]|\OT1/ptm/m/n/12 Reasoning im-proved
- []
-
-No file SLR.bbl.
-
-
-[4] (SLR.aux)
+[3] (SLR.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `SLR.out' has not changed.
-(rerunfilecheck)             Checksum: 95B69FC81A52E988CD3A68BAC2689D48;2903.
+(rerunfilecheck)             Checksum: B32866EF58344466EE3B178A28341BF3;1696.
  ) 
 Here is how much of TeX's memory you used:
- 10048 strings out of 469941
- 151236 string characters out of 5486265
- 552315 words of memory out of 5000000
- 36713 multiletter control sequences out of 15000+600000
- 642667 words of font info for 66 fonts, out of 8000000 for 9000
+ 12220 strings out of 469941
+ 188148 string characters out of 5486265
+ 621074 words of memory out of 5000000
+ 38734 multiletter control sequences out of 15000+600000
+ 653019 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,258b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/miktek/fonts/type1/urw/courier/ucrr8a.pfb><D:/miktek/fonts/type1/urw/time
-s/utmb8a.pfb><D:/miktek/fonts/type1/urw/times/utmr8a.pfb>
-Output written on SLR.pdf (4 pages, 65159 bytes).
+ 75i,7n,79p,1002b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/miktek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/miktek/fonts/type1/u
+rw/courier/ucrr8a.pfb><D:/miktek/fonts/type1/urw/times/utmb8a.pfb><D:/miktek/fo
+nts/type1/urw/times/utmr8a.pfb><D:/miktek/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SLR.pdf (3 pages, 81012 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 45161 words of extra memory for PDF output out of 51595 (max. 10000000)
 
